@@ -11,6 +11,6 @@ public class Grocery {
         float discountPercentage = sales - (sales * discount / 100);
         float finalRevenue = discountPercentage + (discountPercentage * gst / 100);
         System.out.println("Final Revenue=" + finalRevenue);
-
+        sc.close();
     }
 }
