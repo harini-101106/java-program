@@ -51,7 +51,7 @@ public class Smart_home {
         System.out.println("Base Rate: $" + baseRate + "KWh");
         System.out.println("Rate Multiplier:" + rateMultiplier + "x");
         System.out.printf("Renewable Credit: $%.2f\n", renewableCredit);
-        System.out.printf("Total Cost: $%.2f", cost);
+        System.out.printf("Total Cost: $%.2f\n", cost);
         System.out.println("Optimization Recommendation:" + recommendation);
         System.out.println("Potential Savings: $" + potentialSavings);
         energy.close();
